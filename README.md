@@ -1,3 +1,29 @@
+**Forked from [amazon-cognito-identity-dart](https://github.com/jonsaw/amazon-cognito-identity-dart), tons of thanks to the original author @jonsaw**
+
+**Improvements:**
+
+- Support client secret
+- Allow custom user agent (this [flutter_user_agent](https://pub.dev/packages/flutter_user_agent) makes a good combination)
+
+**Fixes:**
+
+- Fixed broken remembering device support
+
+**How to use this fork**
+
+I created PRs [#62](https://github.com/jonsaw/amazon-cognito-identity-dart/pull/62) and [#63](https://github.com/jonsaw/amazon-cognito-identity-dart/pull/63) to the original repo, but it seems the author is not maintaining it any more, so I'm using my own fork by changing dependency in `pubspec.yaml` to
+
+```yaml
+  amazon_cognito_identity_dart: # AWS cognito login, forked version
+    git:
+      url: git://github.com/LudySu/amazon-cognito-identity-dart.git
+      ref: master # can be a branch or a tag
+```
+
+Details of the changes can be found in [Flutter Dev Journal(2): AWS Cognito SDK](http://tsuinte.ru/2019/flutter_log_2_cognito)
+
+------
+
 # Amazon Cognito Identity SDK for Dart
 Unofficial Amazon Cognito Identity SDK written in Dart for [Dart](https://www.dartlang.org/).
 
