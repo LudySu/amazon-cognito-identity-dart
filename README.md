@@ -1,8 +1,8 @@
-Changes made here have been merged to a new repository [amazon-cognito-identity-dart-2](https://github.com/furaiev/amazon-cognito-identity-dart-2)
+This fork is **deprecated**.
+
+Changes made here have been merged to a new repository [amazon-cognito-identity-dart-2](https://github.com/furaiev/amazon-cognito-identity-dart-2), please follow/fork that one instead.
 
 Which can be downloaded directly through Dart package: https://pub.dev/packages/amazon_cognito_identity_dart_2
-
-This fork is deprecated.
 
 ------
 
